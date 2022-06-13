@@ -1,0 +1,85 @@
+body {
+    background-color: grey;
+}
+
+.nav-main {
+    position: fixed;
+    top: 0;
+    width: 85px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1000;
+}
+
+.nav-main ul {
+    position: fixed;
+    top: 100px;
+    visibility: hidden;
+}
+
+.nav-main ul li {
+    list-style: none;
+    width: 200px;
+}
+
+.nav-main ul li a {
+    display: block;
+    text-align: center;
+    height: 100%;
+    padding: 15px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+}
+
+.btn-toggle-nav {
+    width: 85px;
+    height: 100px;
+    background-image: url("menu.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    cursor: pointer;
+}
+
+#colorGrey:hover,
+#colorPink:hover,
+#colorYellow:hover,
+#colorRed:hover,
+#colorOrange:hover,
+#colorPurple:hover,
+#colorGreen:hover {
+    font-weight: bold;
+}
+
+#colorGrey {
+    background-color: grey;
+}
+
+#colorPink {
+    background-color: pink;
+}
+
+#colorYellow {
+    background-color: yellow;
+}
+
+#colorRed {
+    background-color: red;
+}
+
+#colorOrange {
+    background-color: orange;
+}
+
+#colorPurple {
+    background-color: purple;
+}
+
+#colorGreen {
+    background-color: green;
+}
